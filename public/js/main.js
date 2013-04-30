@@ -15,7 +15,11 @@
         }
       });
       return $("#jmpress").jmpress({
-        stepSelector: "section"
+        stepSelector: "section",
+        animation: {
+          transitionDuration: "1000ms"
+        },
+        transitionDuration: 1000
       });
     });
   });

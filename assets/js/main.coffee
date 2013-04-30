@@ -11,5 +11,6 @@ require js, ->
     
     $("#jmpress").jmpress
       stepSelector: "section"
-    
-    
+      animation:
+        transitionDuration: "1000ms" # Length of animation
+      transitionDuration: 1000 # Set this according to animation.transitionDuration    
