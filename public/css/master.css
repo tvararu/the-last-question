@@ -1,3 +1,4 @@
+@import '../components/font-awesome/css/font-awesome.min.css';
 article,
 aside,
 details,
@@ -177,9 +178,9 @@ table {
   border-spacing: 0;
 }
 body {
-  font-family: "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
-  font-size: 96.9%;
-  font-size: 15px;
+  font-family: Georgia, serif;
+  font-size: 161.5%;
+  font-size: 25px;
   color: #555;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -201,48 +202,48 @@ h1 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 36px;
-  margin: 11.25px 0;
+  font-size: 60px;
+  margin: 18.75px 0;
   line-height: 1.2em;
 }
 h2 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 27px;
-  margin: 8.4375px 0;
+  font-size: 45px;
+  margin: 14.0625px 0;
   line-height: 1.2em;
 }
 h3 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 22.5px;
-  margin: 7.03125px 0;
+  font-size: 37.5px;
+  margin: 11.71875px 0;
   line-height: 1.2em;
 }
 h4 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 19.5px;
-  margin: 6.09375px 0;
+  font-size: 32.5px;
+  margin: 10.15625px 0;
   line-height: 1.2em;
 }
 h5 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 15px;
-  margin: 4.6875px 0;
+  font-size: 25px;
+  margin: 7.8125px 0;
   line-height: 1.2em;
 }
 h6 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 13.5px;
-  margin: 4.21875px 0;
+  font-size: 22.5px;
+  margin: 7.03125px 0;
   text-transform: uppercase;
   line-height: 1.2em;
 }
@@ -271,9 +272,9 @@ ol li {
   padding: 2px 0;
 }
 p {
-  margin: 9.375px 0;
+  margin: 15.625px 0;
   line-height: 1.6em;
-  font-size: 15px;
+  font-size: 25px;
 }
 small {
   font-size: 55%;
@@ -322,4 +323,37 @@ blockquote cite:before {
 }
 body {
   padding: 50px;
+  background: #111;
+  color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+section {
+  width: 800px;
+  height: 500px;
+  -webkit-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  -moz-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  -o-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+section.active {
+  -webkit-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  -moz-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  -o-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
 }
