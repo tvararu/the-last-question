@@ -372,14 +372,15 @@
 			callCallback.call(this, 'setActive', delegated, callbackData);
 
 			// Set on step class on root element
+      // Scratch that, set class on body!
 			if (current.jmpressClass) {
-				$(jmpress).removeClass(current.jmpressClass);
+				$('body').removeClass(current.jmpressClass);
 			}
-			$(jmpress).addClass(current.jmpressClass = 'step-' + $(delegated).attr('id') );
+			$('body').addClass(current.jmpressClass = 'step-' + $(delegated).attr('id') );
 			if (current.jmpressDelegatedClass) {
-				$(jmpress).removeClass(current.jmpressDelegatedClass);
+				$('body').removeClass(current.jmpressDelegatedClass);
 			}
-			$(jmpress).addClass(current.jmpressDelegatedClass = 'delegating-step-' + $(el).attr('id') );
+			$('body').addClass(current.jmpressDelegatedClass = 'delegating-step-' + $(el).attr('id') );
 
 			callCallback.call(this, "applyTarget", delegated, $.extend({
 				canvas: canvas

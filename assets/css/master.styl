@@ -1,22 +1,182 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,400italic);
 @import '../components/font-awesome/css/font-awesome.min.css'
 @import '../components/jmpress/animations.css'
 @import '_settings'
+@import 'roots-css/animation'
 
 normalize()
 base()
 typography()
 
 body
-  background black
+  transition all 0.5s ease-in-out
+  background cosmos
   color white
-
-h1, h2, h3, h4, h5, h6
-  color white
+  
+  h1, h2, h3, h4, h5, h6
+    color white
 
 section
-  size 800px 500px
+  size 800 600
   opacity 0
   transition all 0.5s ease-in-out
 
+p
+  margin 10px 0px
+
 section.active
   opacity 1
+
+blockquote
+  fs 0.8em
+
+#back-intro
+  size 1600 1000
+  background url('../img/andromeda.jpg')
+
+#intro
+  text-align center
+
+.step-intro
+  #back-intro
+    opacity 1
+
+.planets.do-fade-fast
+  img
+    position relative
+
+.planets.has-fade-fast
+  img
+    display none
+
+.ice.do-fade
+  .clumsy
+    display inline-block
+    animation swing 3s infinite
+
+.ice.has-fade
+  .clumsy
+    animation none
+
+@keyframes twerk
+  0%
+    transform rotate(0deg)
+  80%
+    transform rotate(15deg)
+  100%
+    transform rotate(0deg)
+
+.step-lupov
+  .sideways
+    display inline-block
+    animation twerk 3s
+    animation-delay 1s
+
+.thinning
+  font-weight 100
+
+.safe.do-fade
+  .shaky
+    display inline-block
+    animation shake 10s infinite
+
+.safe.has-fade
+  .shaky
+    animation none
+
+.step-switch
+  .snapped
+    display inline-block
+    animation flash 1s
+    animation-delay 1s
+
+.dark
+  color #000
+  background #333
+
+.answer
+  text-align center
+  font-family monospace
+  pre()
+  color cosmos
+
+#back-hyperspace
+  size 1600 1000
+  background url('../img/hyperspace.jpg') no-repeat
+  background-size 100% auto
+
+.step-hyperspace
+  #back-hyperspace
+    opacity 0.8
+
+#back-x23
+  size 50px
+  border-radius(999px)
+  background white
+
+.step-x23
+  #back-x23
+    opacity 1
+    transition-delay 2s
+
+#starmap
+  text-shadow 0.1em 0.1em 0.1em #000
+
+#back-starmap
+  size 1920 1080
+  background url('../img/starmap.jpg')
+
+.step-starmap
+  #back-starmap
+    opacity 1
+
+#starmap
+  text-shadow 0.1em 0.1em 0.1em #000
+
+#back-galaxy
+  size 1920 1200
+  background url('../img/galaxy.jpg')
+
+.step-galaxy
+  #back-galaxy
+    opacity 1
+
+#galaxy
+  text-shadow 0.1em 0.1em 0.1em #000
+
+#back-milkyway
+  size 1440 900
+  background url('../img/milkyway.jpg')
+
+.step-milkyway
+  #back-milkyway
+    opacity 1
+
+#milkyway
+  text-shadow 0.1em 0.1em 0.1em #000
+  
+  .answer
+    text-shadow none
+
+.step-man
+  background black
+
+.step-black
+  background #000
+  transition-delay 1s
+  color #888
+
+.step-final-part
+  background #100
+  transition-delay 1s
+
+.step-thend
+  background white
+  transition background 5s ease-in-expo
+  transition-delay 2s
+
+.step-credits
+  background white
+  color black
+  h1, h2, h3, h4, h5, h6
+    color black

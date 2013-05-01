@@ -1,7 +1,7 @@
 (function() {
   var js;
 
-  js = ["http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js", "../components/jmpress/jmpress.js"];
+  js = ["../components/jmpress/jmpress.js"];
 
   require(js, function() {
     return $(function() {
@@ -15,11 +15,18 @@
         }
       });
       return $("#jmpress").jmpress({
+        viewPort: {
+          height: 500,
+          width: 800,
+          maxScale: 1
+        },
         stepSelector: "section",
         animation: {
           transitionDuration: "1000ms"
         },
-        transitionDuration: 1000
+        mouse: {
+          clickSelects: false
+        }
       });
     });
   });

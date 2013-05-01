@@ -1,4 +1,4 @@
-js = ["http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js", "../components/jmpress/jmpress.js"]
+js = ["../components/jmpress/jmpress.js"]
 
 require js, ->
   $ ->
@@ -10,7 +10,12 @@ require js, ->
         template: "auto"
     
     $("#jmpress").jmpress
+      viewPort:
+        height: 500
+        width: 800
+        maxScale: 1
       stepSelector: "section"
       animation:
         transitionDuration: "1000ms" # Length of animation
-      transitionDuration: 1000 # Set this according to animation.transitionDuration    
+      mouse:
+        clickSelects: false

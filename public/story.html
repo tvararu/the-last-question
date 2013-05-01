@@ -3,9 +3,8 @@
   <head>
     <meta charset="utf8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-    <meta name="description" content="description of your site">
-    <meta name="author" content="author of the site">
-    <title>Welcome to Roots!</title>
+    <meta name="author" content="Theodor Văraru">
+    <title>The Last Question</title>
     <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
@@ -205,5 +204,7 @@
 <p>And AC said, "LET THERE BE LIGHT!"</p>
 <p>And there was light --</p>
   </body>
-  <script data-main="js/main" src="js/require.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script data-main="js/main" src="js/require.js"></script><script>protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://'; address = protocol + window.location.host + window.location.pathname + '/ws'; socket = new WebSocket(address);
+socket.onmessage = function(msg) { msg.data == 'reload' && window.location.reload() }</script>
 </html>
