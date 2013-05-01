@@ -8619,7 +8619,12 @@ blockquote {
 #back-intro {
   width: 1600px;
   height: 1000px;
-  background: url("../img/andromeda.jpg");
+  background: url("../img/andromeda.jpg") no-repeat;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  -ms-background-size: 100% auto;
+  background-size: 100% auto;
 }
 #intro {
   text-align: center;
@@ -8812,7 +8817,12 @@ blockquote {
 #back-galaxy {
   width: 1920px;
   height: 1200px;
-  background: url("../img/galaxy.jpg");
+  background: url("../img/galaxy.jpg") no-repeat;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  -ms-background-size: 100% auto;
+  background-size: 100% auto;
 }
 .step-galaxy #back-galaxy {
   -webkit-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
@@ -8828,7 +8838,12 @@ blockquote {
 #back-milkyway {
   width: 1440px;
   height: 900px;
-  background: url("../img/milkyway.jpg");
+  background: url("../img/milkyway.jpg") no-repeat;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  -ms-background-size: 100% auto;
+  background-size: 100% auto;
 }
 .step-milkyway #back-milkyway {
   -webkit-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
