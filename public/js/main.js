@@ -28,6 +28,7 @@
           clickSelects: false
         },
         fullscreen: true,
+        notSupportedClass: 'no-jmpress',
         beforeChange: function(element, eventData) {
           return $("#little-arrow").css({
             display: "none"

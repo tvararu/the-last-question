@@ -20,6 +20,7 @@ require js, ->
       mouse:
         clickSelects: false
       fullscreen: true
+      notSupportedClass: 'no-jmpress'
       beforeChange: (element, eventData) ->
         $("#little-arrow").css display: "none"
       idle: () ->

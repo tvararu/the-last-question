@@ -15,11 +15,15 @@
   </head>
   <body>
 <div id="jmpress" data-template="auto">
-  <section>
+  <section id="disclaimer">
     <p>This is an interactive presentation. Use the right arrow key, spacebar, or swipe right to navigate.</p>
     <p data-jmpress="fade-fast">The little icon on the bottom <span data-jmpress="fade after 500ms prev">appears </span><span data-jmpress="fade after 500ms prev">when there are no more hidden animations to display.</span></p>
     <p data-jmpress="fade-fast">Should you accidentally jump a step<span data-jmpress="fade after 500ms prev">, you can always rewind with the left arrow key.</span></p>
     <p data-jmpress="fade-fast">Sit back<span data-jmpress="fade after 1000ms prev">,<br/>relax</span><span data-jmpress="fade after 1000ms prev">,<br/>and enjoy the story.</span></p>
+  </section>
+  <section id="fallback" data-exclude="data-exclude">
+    <p>It would seem like your browser can't handle the full version of this presentation. To experience it correctly, please install the latest version of <a href="https://www.google.com/intl/en/chrome/browser/" target="_blank">Google Chrome</a> or <a href="http://www.mozilla.org/en-US/firefox/new/" target="_blank">Mozilla Firefox</a>.</p>
+    <p>You are currently being presented a simplified version of this presentation. Scroll down to read.</p>
   </section>
   <section>
     <p>Isaac Asimov was the most prolific science fiction author of all time.</p>
@@ -38,7 +42,7 @@
       <p data-jmpress="fade-fast"><em>It is a curious fact that innumerable readers have asked me if I wrote this story. They seem never to remember the title of the story or (for sure) the author, except for the vague thought it might be me. But, of course, they never forget the story itself especially the ending. The idea seems to drown out everything -- and I'm satisfied that it should.</em></p>
     </blockquote>
   </section>
-  <section id="back-intro" data-z="-10000" data-scale="13" data-exclude="data-exclude"></section>
+  <section id="back-intro" data-z="-10000" data-scale="13" data-exclude="data-exclude" class="back"></section>
   <section id="intro">
     <h1>The Last Question</h1>
     <h3>Isaac Asimov</h3>
@@ -158,11 +162,11 @@
     <p data-jmpress="fade-fast">By next morning<span data-jmpress="fade after 500ms prev">, the two</span><span data-jmpress="fade after 500ms prev">, plagued with throbbing head and cottony mouth</span><span data-jmpress="fade after 1000ms prev">, had forgotten the incident.</span></p>
     <hr data-jmpress="fade after 500ms prev"/>
   </section>
-  <section id="back-hyperspace" data-z="-10000" data-scale="13" data-exclude="data-exclude"></section>
+  <section id="back-hyperspace" data-z="-10000" data-scale="13" data-exclude="data-exclude" class="back"></section>
   <section id="hyperspace">
     <p>Jerrodd, Jerrodine, and Jerrodette I and II watched the starry picture in the visiplate change as the passage through hyperspace was completed in its non-time lapse.</p>
   </section>
-  <section id="back-x23" data-z="-10000" data-scale="13" data-exclude="data-exclude"></section>
+  <section id="back-x23" data-z="-10000" data-scale="13" data-exclude="data-exclude" class="back"></section>
   <section id="x23">
     <p>At once, the even powdering of stars gave way to the predominance of a single bright shining disk<span data-jmpress="fade after 1000ms step">, the size of a marble</span><span data-jmpress="fade after 500ms prev">, centered on the viewing-screen.</span></p>
     <p data-jmpress="fade-fast">"That's X-23," said Jerrodd confidently. <span data-jmpress="fade after 500ms prev">His thin hands clamped tightly behind his back and the knuckles whitened.</span></p>
@@ -217,7 +221,7 @@
     <p data-jmpress="fade-fast">He shrugged and looked at the visiplate. X-23 was just ahead.</p>
     <hr data-jmpress="fade after 500ms prev"/>
   </section>
-  <section id="back-starmap" data-z="-10000" data-scale="13" data-exclude="data-exclude"></section>
+  <section id="back-starmap" data-z="-10000" data-scale="13" data-exclude="data-exclude" class="back"></section>
   <section id="starmap">
     <p>VJ-23X of Lameth stared into the black depths of the three-dimensional, small-scale map of the Galaxy and said<span data-jmpress="fade-fast">, "Are we ridiculous</span><span data-jmpress="fade after 500ms prev">, I wonder </span><span data-jmpress="fade after 500ms prev">in being so concerned about the matter?"</span></p>
     <p data-jmpress="fade-fast">MQ-17J of Nicron shook his head. <span data-jmpress="fade after 500ms prev">"I think not. </span><span data-jmpress="fade after 1000ms prev">You know the Galaxy will be filled in five years at the present rate of expansion."</span></p>
@@ -270,7 +274,7 @@
     <p data-jmpress="fade-fast">The two men thereupon returned to the question of the report they were to make to the Galactic Council.</p>
     <hr data-jmpress="fade after 1000ms prev"/>
   </section>
-  <section id="back-galaxy" data-z="-10000" data-scale="13" data-exclude="data-exclude"></section>
+  <section id="back-galaxy" data-z="-10000" data-scale="13" data-exclude="data-exclude" class="back"></section>
   <section id="galaxy">
     <p>Zee Prime's mind spanned the new Galaxy with a faint interest in the countless twists of stars that powdered it. <span data-jmpress="fade-fast">He had never seen this one before. </span><span data-jmpress="fade after 1000ms prev">Would he ever see them all? </span><span data-jmpress="fade-fast">So many of them</span><span data-jmpress="fade after 500ms prev">, each with its load of humanity. </span><span data-jmpress="fade-fast">--But a load that was almost a dead weight. </span><span data-jmpress="fade after 1000ms prev">More and more</span><span data-jmpress="fade after 500ms prev">, the real essence of men was to be found out here</span><span data-jmpress="fade after 1000ms prev">, in space.</span></p>
     <p data-jmpress="fade-fast">Minds, not bodies! <span data-jmpress="fade-fast">The immortal bodies remained back on the planets</span><span data-jmpress="fade after 1000ms prev">, in suspension over the eons. </span><span data-jmpress="fade-fast">Sometimes they roused for material activity but that was growing rarer. </span><span data-jmpress="fade-fast">Few new individuals were coming into existence to join the incredibly mighty throng</span><span data-jmpress="fade after 1000ms prev">, but what matter? </span><span data-jmpress="fade after 500ms prev">There was little room in the Universe for new individuals.</span></p>
@@ -306,7 +310,7 @@
     </p>
     <p data-jmpress="fade-fast">A thought came, infinitely distant, but infinitely clear.</p>
   </section>
-  <section id="back-milkyway" data-z="-10000" data-scale="13" data-exclude="data-exclude"></section>
+  <section id="back-milkyway" data-z="-10000" data-scale="13" data-exclude="data-exclude" class="back"></section>
   <section id="milkyway">
     <p class="answer"><span data-jmpress="fade after 1000ms step">THIS </span><span data-jmpress="fade after 200ms prev">IS </span><span data-jmpress="fade after 200ms prev">THE </span><span data-jmpress="fade after 200ms prev">ORIGINAL </span><span data-jmpress="fade after 200ms prev">GALAXY </span><span data-jmpress="fade after 200ms prev">OF </span><span data-jmpress="fade after 200ms prev">MAN.</span></p>
     <p data-jmpress="fade-fast">But it was the same after all<span data-jmpress="fade after 500ms prev">, the same as any other</span><span data-jmpress="fade after 1000ms prev">, and Zee Prime stifled his disappointment.</span></p>

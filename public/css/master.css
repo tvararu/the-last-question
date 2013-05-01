@@ -8579,6 +8579,28 @@ section {
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   padding: 20px;
+  margin: 0 auto;
+}
+#fallback {
+  display: none;
+}
+.no-jmpress .planets,
+.no-jmpress .back {
+  display: none;
+}
+.no-jmpress section {
+  -webkit-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  -moz-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  -o-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+.no-jmpress #fallback {
+  display: block;
+}
+.no-jmpress #disclaimer {
+  display: none;
 }
 p {
   margin: 10px 0px;
