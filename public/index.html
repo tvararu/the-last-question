@@ -7,14 +7,16 @@
     <title>The Last Question</title>
     <link rel="stylesheet" href="css/master.css">
   </head>
-  <body>
+  <body><i id="little-arrow" class="icon-play"></i>
 <div id="jmpress" data-template="auto">
   <section>
+    <p>This is an interactive presentation. Use the right arrow key, spacebar, or swipe right to navigate.</p>
+    <p data-jmpress="fade-fast">When you see the little icon on the bottom<span data-jmpress="fade after 500ms prev">, it means that you are ready to advance further.</span></p>
+    <p data-jmpress="fade-fast">Should you accidentally jump a step<span data-jmpress="fade after 500ms prev">, you can always rewind with the left arrow key.</span></p>
+  </section>
+  <section>
     <p>Isaac Asimov was the most prolific science fiction author of all time.</p>
-    <p data-jmpress="fade-fast">
-       
-      In fifty years he averaged a new magazine article<span data-jmpress="fade after 1000ms prev">, short story</span><span data-jmpress="fade after 500ms prev">, or book</span><span data-jmpress="fade after 500ms prev"> every two weeks, and most of that on a manual typewriter.</span>
-    </p>
+    <p data-jmpress="fade-fast">In fifty years he averaged a new magazine article<span data-jmpress="fade after 1000ms prev">, short story</span><span data-jmpress="fade after 500ms prev">, or book </span><span data-jmpress="fade after 500ms prev">every two weeks, and most of that on a manual typewriter.</span></p>
     <p data-jmpress="fade-fast">Asimov thought that The Last Question, first copyrighted in 1956, was his best short story ever.</p>
   </section>
   <section>
@@ -385,11 +387,11 @@
     <p data-jmpress="fade after 1000ms prev" class="light">And there was light --</p>
   </section>
   <section id="credits">
-    <h1>That's all, folks.</h1>
+    <h1>The end.</h1>
   </section>
 </div>
   </body>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script data-main="js/main" src="js/require.js"></script><script>protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://'; address = protocol + window.location.host + window.location.pathname + '/ws'; socket = new WebSocket(address);
 socket.onmessage = function(msg) { msg.data == 'reload' && window.location.reload() }</script>
 </html>

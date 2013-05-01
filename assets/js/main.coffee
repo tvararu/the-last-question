@@ -19,3 +19,8 @@ require js, ->
         transitionDuration: "1000ms" # Length of animation
       mouse:
         clickSelects: false
+      fullscreen: true
+      beforeChange: (element, eventData) ->
+        $("#little-arrow").css display: "none"
+      idle: () ->
+        $("#little-arrow").delay(5000).css display: "block"

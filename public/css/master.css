@@ -8529,6 +8529,7 @@ blockquote cite:before {
   content: '\2014';
 }
 body {
+  padding: 50px;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -8816,6 +8817,18 @@ blockquote {
 .step-credits h5,
 .step-credits h6 {
   color: #272727;
+}
+#little-arrow {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  z-index: 1000;
+  -webkit-animation: shake 15s infinite;
+  -moz-animation: shake 15s infinite;
+  -o-animation: shake 15s infinite;
+  -ms-animation: shake 15s infinite;
+  animation: shake 15s infinite;
+  display: none;
 }
 @-webkit-keyframes twerk {
   0% {

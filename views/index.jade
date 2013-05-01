@@ -1,12 +1,23 @@
+i.icon-play#little-arrow
+
 #jmpress(data-template="auto")
   
   section
+    p This is an interactive presentation. Use the right arrow key, spacebar, or swipe right to navigate.
+    p(data-jmpress="fade-fast")
+      | When you see the little icon on the bottom
+      span(data-jmpress="fade after 500ms prev") , it means that you are ready to advance further.
+    p(data-jmpress="fade-fast")
+      | Should you accidentally jump a step
+      span(data-jmpress="fade after 500ms prev") , you can always rewind with the left arrow key.
+  
+  section
     p Isaac Asimov was the most prolific science fiction author of all time.
-    p(data-jmpress="fade-fast") 
+    p(data-jmpress="fade-fast")
       | In fifty years he averaged a new magazine article
-      span(data-jmpress="fade after 1000ms prev"), short story
-      span(data-jmpress="fade after 500ms prev"), or book
-      span(data-jmpress="fade after 500ms prev")  every two weeks, and most of that on a manual typewriter.
+      span(data-jmpress="fade after 1000ms prev") , short story
+      span(data-jmpress="fade after 500ms prev") , or book 
+      span(data-jmpress="fade after 500ms prev") every two weeks, and most of that on a manual typewriter.
     p(data-jmpress="fade-fast") Asimov thought that The Last Question, first copyrighted in 1956, was his best short story ever.
   
   section
@@ -912,4 +923,4 @@
     p.light(data-jmpress="fade after 1000ms prev") And there was light --
   
   section#credits
-    h1 That's all, folks.
+    h1 The end.

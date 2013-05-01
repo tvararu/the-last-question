@@ -26,6 +26,17 @@
         },
         mouse: {
           clickSelects: false
+        },
+        fullscreen: true,
+        beforeChange: function(element, eventData) {
+          return $("#little-arrow").css({
+            display: "none"
+          });
+        },
+        idle: function() {
+          return $("#little-arrow").delay(5000).css({
+            display: "block"
+          });
         }
       });
     });
