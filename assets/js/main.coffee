@@ -11,8 +11,8 @@ require js, ->
     
     $("#jmpress").jmpress
       viewPort:
-        height: 500
-        width: 800
+        height: 640
+        width: 840
         maxScale: 1
       stepSelector: "section"
       animation:

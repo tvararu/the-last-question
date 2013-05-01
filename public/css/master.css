@@ -8559,6 +8559,7 @@ section {
   -o-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  padding: 20px;
 }
 p {
   margin: 10px 0px;
