@@ -8528,6 +8528,22 @@ blockquote cite {
 blockquote cite:before {
   content: '\2014';
 }
+ul {
+  margin: 5px 15px;
+  padding-left: 1em;
+}
+ul li {
+  list-style-type: disc;
+  padding: 2px 0;
+}
+ol {
+  margin: 5px 18px;
+  padding-left: 1em;
+}
+ol li {
+  list-style-type: decimal;
+  padding: 2px 0;
+}
 body {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -8820,16 +8836,7 @@ blockquote {
   transition-delay: 2s;
 }
 .step-credits {
-  background: #fff;
-  color: #272727;
-}
-.step-credits h1,
-.step-credits h2,
-.step-credits h3,
-.step-credits h4,
-.step-credits h5,
-.step-credits h6 {
-  color: #272727;
+  background: #272727;
 }
 #little-arrow {
   position: absolute;

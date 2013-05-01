@@ -390,9 +390,20 @@
   </section>
   <section id="credits">
     <h1>The end.</h1>
+    <p>Made with:</p>
+    <ul>
+      <li><a href="http://roots.cx/" target="_blank">roots</a></li>
+      <li><a href="http://jmpressjs.github.io/jmpress.js/" target="_blank">jmpress.js</a></li>
+      <li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a></li>
+      <li>love</li>
+      <li>patience.</li>
+    </ul>
+    <p>Text from <a href="http://filer.case.edu/dts8/thelastq.htm" target="_blank">http://filer.case.edu/dts8/thelastq.htm</a></p>
+    <p>By Theodor Văraru from <a href="http://readfwd.com/" target="_blank">Read Forward</a>.</p>
   </section>
 </div><i id="little-arrow" class="icon-play"></i>
   </body>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script data-main="js/main" src="js/require.js"></script>
+  <script data-main="js/main" src="js/require.js"></script><script>protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://'; address = protocol + window.location.host + window.location.pathname + '/ws'; socket = new WebSocket(address);
+socket.onmessage = function(msg) { msg.data == 'reload' && window.location.reload() }</script>
 </html>
