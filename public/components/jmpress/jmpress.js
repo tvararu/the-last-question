@@ -548,7 +548,7 @@
 		 */
 		function checkSupport() {
 			var ua = navigator.userAgent.toLowerCase();
-      return (ua.search(/(chrome)/) !== -1);
+			return (ua.search(/(ipod)/) === -1) || (ua.search(/(chrome)/) !== -1);
 		}
 
 		// BEGIN INIT
