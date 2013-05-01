@@ -8805,23 +8805,6 @@ blockquote {
 .step-man {
   background: #272727;
 }
-.step-black {
-  background: #000;
-  -webkit-transition-delay: 1s;
-  -moz-transition-delay: 1s;
-  -o-transition-delay: 1s;
-  -ms-transition-delay: 1s;
-  transition-delay: 1s;
-  color: #888;
-}
-.step-final-part {
-  background: #100;
-  -webkit-transition-delay: 1s;
-  -moz-transition-delay: 1s;
-  -o-transition-delay: 1s;
-  -ms-transition-delay: 1s;
-  transition-delay: 1s;
-}
 .step-thend {
   background: #fff;
   -webkit-transition: background 5s cubic-bezier(0.95, 0.05, 0.795, 0.035);
