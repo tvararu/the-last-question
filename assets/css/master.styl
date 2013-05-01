@@ -9,7 +9,6 @@ base()
 typography()
 
 body
-  padding 50px
   transition all 0.5s ease-in-out
   background cosmos
   color white
@@ -58,20 +57,23 @@ blockquote
 .ice.has-fade
   .clumsy
     animation none
+    
+    &:hover
+      display inline-block
+      animation swing 3s infinite
 
 @keyframes twerk
   0%
     transform rotate(0deg)
-  80%
-    transform rotate(15deg)
   100%
-    transform rotate(0deg)
+    transform rotate(15deg)
 
 .step-lupov
   .sideways
     display inline-block
     animation twerk 3s
     animation-delay 1s
+    animation-fill-mode forwards
 
 .thinning
   font-weight 100
@@ -84,12 +86,19 @@ blockquote
 .safe.has-fade
   .shaky
     animation none
+    
+    &:hover
+      display inline-block
+      animation shake 10s infinite
 
 .step-switch
   .snapped
     display inline-block
     animation flash 1s
     animation-delay 1s
+    
+    &:hover
+      animation flash 1s
 
 .dark
   color #000
@@ -100,6 +109,8 @@ blockquote
   font-family monospace
   pre()
   color cosmos
+  border-left dotted
+  border-right dotted
 
 #back-hyperspace
   size 1600 1000

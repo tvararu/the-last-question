@@ -34,7 +34,7 @@
           });
         },
         idle: function() {
-          return $("#little-arrow").delay(5000).css({
+          return $("#little-arrow").css({
             display: "block"
           });
         }

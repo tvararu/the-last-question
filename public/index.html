@@ -4,15 +4,17 @@
     <meta charset="utf8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <meta name="author" content="Theodor Văraru">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <title>The Last Question</title>
     <link rel="stylesheet" href="css/master.css">
   </head>
-  <body><i id="little-arrow" class="icon-play"></i>
+  <body>
 <div id="jmpress" data-template="auto">
   <section>
     <p>This is an interactive presentation. Use the right arrow key, spacebar, or swipe right to navigate.</p>
-    <p data-jmpress="fade-fast">When you see the little icon on the bottom<span data-jmpress="fade after 500ms prev">, it means that you are ready to advance further.</span></p>
+    <p data-jmpress="fade-fast">The little icon on the bottom <span data-jmpress="fade after 500ms prev">appears </span><span data-jmpress="fade after 500ms prev">when there are no more hidden animations to display.</span></p>
     <p data-jmpress="fade-fast">Should you accidentally jump a step<span data-jmpress="fade after 500ms prev">, you can always rewind with the left arrow key.</span></p>
+    <p data-jmpress="fade-fast">Sit back<span data-jmpress="fade after 1000ms prev">,<br/>relax</span><span data-jmpress="fade after 1000ms prev">,<br/>and enjoy the story.</span></p>
   </section>
   <section>
     <p>Isaac Asimov was the most prolific science fiction author of all time.</p>
@@ -389,7 +391,7 @@
   <section id="credits">
     <h1>The end.</h1>
   </section>
-</div>
+</div><i id="little-arrow" class="icon-play"></i>
   </body>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script data-main="js/main" src="js/require.js"></script><script>protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://'; address = protocol + window.location.host + window.location.pathname + '/ws'; socket = new WebSocket(address);

@@ -8386,8 +8386,8 @@ table {
 }
 body {
   font-family: Ubuntu, "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
-  font-size: 161.5%;
-  font-size: 25px;
+  font-size: 148.58%;
+  font-size: 23px;
   color: #111;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -8409,48 +8409,48 @@ h1 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 60px;
-  margin: 18.75px 0;
+  font-size: 55.199999999999996px;
+  margin: 17.249999999999996px 0;
   line-height: 1.2em;
 }
 h2 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 45px;
-  margin: 14.0625px 0;
+  font-size: 41.4px;
+  margin: 12.937499999999998px 0;
   line-height: 1.2em;
 }
 h3 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 37.5px;
-  margin: 11.71875px 0;
+  font-size: 34.5px;
+  margin: 10.78125px 0;
   line-height: 1.2em;
 }
 h4 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 32.5px;
-  margin: 10.15625px 0;
+  font-size: 29.900000000000002px;
+  margin: 9.34375px 0;
   line-height: 1.2em;
 }
 h5 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 25px;
-  margin: 7.8125px 0;
+  font-size: 23px;
+  margin: 7.1875px 0;
   line-height: 1.2em;
 }
 h6 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 22.5px;
-  margin: 7.03125px 0;
+  font-size: 20.7px;
+  margin: 6.468749999999999px 0;
   text-transform: uppercase;
   line-height: 1.2em;
 }
@@ -8479,9 +8479,9 @@ ol li {
   padding: 2px 0;
 }
 p {
-  margin: 15.625px 0;
+  margin: 14.375px 0;
   line-height: 1.6em;
-  font-size: 25px;
+  font-size: 23px;
 }
 small {
   font-size: 55%;
@@ -8529,7 +8529,6 @@ blockquote cite:before {
   content: '\2014';
 }
 body {
-  padding: 50px;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -8612,6 +8611,14 @@ blockquote {
   -ms-animation: none;
   animation: none;
 }
+.ice.has-fade .clumsy:hover {
+  display: inline-block;
+  -webkit-animation: swing 3s infinite;
+  -moz-animation: swing 3s infinite;
+  -o-animation: swing 3s infinite;
+  -ms-animation: swing 3s infinite;
+  animation: swing 3s infinite;
+}
 .step-lupov .sideways {
   display: inline-block;
   -webkit-animation: twerk 3s;
@@ -8624,6 +8631,11 @@ blockquote {
   -o-animation-delay: 1s;
   -ms-animation-delay: 1s;
   animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 .thinning {
   font-weight: 100;
@@ -8643,6 +8655,14 @@ blockquote {
   -ms-animation: none;
   animation: none;
 }
+.safe.has-fade .shaky:hover {
+  display: inline-block;
+  -webkit-animation: shake 10s infinite;
+  -moz-animation: shake 10s infinite;
+  -o-animation: shake 10s infinite;
+  -ms-animation: shake 10s infinite;
+  animation: shake 10s infinite;
+}
 .step-switch .snapped {
   display: inline-block;
   -webkit-animation: flash 1s;
@@ -8655,6 +8675,13 @@ blockquote {
   -o-animation-delay: 1s;
   -ms-animation-delay: 1s;
   animation-delay: 1s;
+}
+.step-switch .snapped:hover {
+  -webkit-animation: flash 1s;
+  -moz-animation: flash 1s;
+  -o-animation: flash 1s;
+  -ms-animation: flash 1s;
+  animation: flash 1s;
 }
 .dark {
   color: #000;
@@ -8677,6 +8704,8 @@ blockquote {
   font-family: Menlo, Monaco, 'Bitstream Vera Sans Mono', Consolas, Courier, monospace;
   line-height: 160%;
   color: #111;
+  border-left: dotted;
+  border-right: dotted;
 }
 #back-hyperspace {
   width: 1600px;
@@ -8839,20 +8868,12 @@ blockquote {
     transform: rotate(0deg);
   }
 
-  80% {
+  100% {
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
     -o-transform: rotate(15deg);
     -ms-transform: rotate(15deg);
     transform: rotate(15deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
   }
 }
 @-moz-keyframes twerk {
@@ -8864,20 +8885,12 @@ blockquote {
     transform: rotate(0deg);
   }
 
-  80% {
+  100% {
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
     -o-transform: rotate(15deg);
     -ms-transform: rotate(15deg);
     transform: rotate(15deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
   }
 }
 @-o-keyframes twerk {
@@ -8889,20 +8902,12 @@ blockquote {
     transform: rotate(0deg);
   }
 
-  80% {
+  100% {
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
     -o-transform: rotate(15deg);
     -ms-transform: rotate(15deg);
     transform: rotate(15deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
   }
 }
 @-ms-keyframes twerk {
@@ -8914,20 +8919,12 @@ blockquote {
     transform: rotate(0deg);
   }
 
-  80% {
+  100% {
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
     -o-transform: rotate(15deg);
     -ms-transform: rotate(15deg);
     transform: rotate(15deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
   }
 }
 @keyframes twerk {
@@ -8939,19 +8936,11 @@ blockquote {
     transform: rotate(0deg);
   }
 
-  80% {
+  100% {
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
     -o-transform: rotate(15deg);
     -ms-transform: rotate(15deg);
     transform: rotate(15deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
   }
 }

@@ -23,4 +23,4 @@ require js, ->
       beforeChange: (element, eventData) ->
         $("#little-arrow").css display: "none"
       idle: () ->
-        $("#little-arrow").delay(5000).css display: "block"
+        $("#little-arrow").css display: "block"
