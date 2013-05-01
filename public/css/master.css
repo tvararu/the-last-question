@@ -8544,6 +8544,9 @@ ol li {
   list-style-type: decimal;
   padding: 2px 0;
 }
+* {
+  -ms-scroll-chaining: none;
+}
 body {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
