@@ -16,8 +16,8 @@
       });
       return $("#jmpress").jmpress({
         viewPort: {
-          height: 640,
-          width: 840,
+          height: 660,
+          width: 660,
           maxScale: 1
         },
         stepSelector: "section",

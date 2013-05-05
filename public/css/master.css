@@ -8386,8 +8386,8 @@ table {
 }
 body {
   font-family: Ubuntu, "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
-  font-size: 148.58%;
-  font-size: 23px;
+  font-size: 161.5%;
+  font-size: 25px;
   color: #111;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -8409,48 +8409,48 @@ h1 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 55.199999999999996px;
-  margin: 17.249999999999996px 0;
+  font-size: 60px;
+  margin: 18.75px 0;
   line-height: 1.2em;
 }
 h2 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 41.4px;
-  margin: 12.937499999999998px 0;
+  font-size: 45px;
+  margin: 14.0625px 0;
   line-height: 1.2em;
 }
 h3 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 34.5px;
-  margin: 10.78125px 0;
+  font-size: 37.5px;
+  margin: 11.71875px 0;
   line-height: 1.2em;
 }
 h4 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 29.900000000000002px;
-  margin: 9.34375px 0;
+  font-size: 32.5px;
+  margin: 10.15625px 0;
   line-height: 1.2em;
 }
 h5 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 23px;
-  margin: 7.1875px 0;
+  font-size: 25px;
+  margin: 7.8125px 0;
   line-height: 1.2em;
 }
 h6 {
   color: #333;
   text-rendering: optimizelegibility;
   font-weight: bold;
-  font-size: 20.7px;
-  margin: 6.468749999999999px 0;
+  font-size: 22.5px;
+  margin: 7.03125px 0;
   text-transform: uppercase;
   line-height: 1.2em;
 }
@@ -8479,9 +8479,9 @@ ol li {
   padding: 2px 0;
 }
 p {
-  margin: 14.375px 0;
+  margin: 15.625px 0;
   line-height: 1.6em;
-  font-size: 23px;
+  font-size: 25px;
 }
 small {
   font-size: 55%;
@@ -8562,8 +8562,8 @@ body h6 {
   color: #fff;
 }
 section {
-  width: 800px;
-  height: 600px;
+  width: 650px;
+  height: 650px;
   -webkit-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   -moz-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   -o-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
@@ -8575,7 +8575,7 @@ section {
   -o-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  padding: 20px;
+  padding: 5px;
   margin: 0 auto;
 }
 #fallback {
@@ -8601,6 +8601,7 @@ section {
 }
 p {
   margin: 10px 0px;
+  line-height: 1.4em;
 }
 section.active {
   -webkit-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
@@ -8636,6 +8637,7 @@ blockquote {
 }
 .planets.do-fade-fast img {
   position: relative;
+  width: 650px;
 }
 .planets.has-fade-fast img {
   display: none;
@@ -8750,6 +8752,7 @@ blockquote {
   color: #111;
   border-left: dotted;
   border-right: dotted;
+  font-size: 0.9em;
 }
 #back-hyperspace {
   width: 1600px;
