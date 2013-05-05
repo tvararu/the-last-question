@@ -191,7 +191,7 @@
   </section>
   <section>
     <p>It was a nice feeling to have a Microvac of your own and Jerrodd was glad he was part of his generation and no other. <span data-jmpress="fade-fast">In his father's youth, the only computers had been tremendous machines taking up a hundred square miles of land. </span><span data-jmpress="fade-fast">There was only one to a planet. </span><span data-jmpress="fade after 500ms prev">Planetary ACs they were called. </span><span data-jmpress="fade-fast">They had been growing in size steadily for a thousand years and then<span data-jmpress="fade after 1000ms prev">, all at once</span><span data-jmpress="fade after 500ms prev">, came refinement. </span></span><span data-jmpress="fade-fast">In place of transistors, had come molecular valves so that even the largest Planetary AC could be put into a space only half the volume of a spaceship.</span></p>
-    <p data-jmpress="fade-fast">Jerrodd felt uplifted<span data-jmpress="fade after 500ms prev">, as he always did when he thought that his own personal Microvac was many times more complicated than the ancient and primitive Multivac that had first tamed the Sun</span><span data-jmpress="fade after 1000ms prev">, and almost as complicated as Earth's Planetarv AC (the largest) that had first solved the problem of hyperspatial travel and had made trips to the stars possible.</span></p>
+    <p data-jmpress="fade-fast">Jerrodd felt uplifted<span data-jmpress="fade after 500ms prev">, as he always did when he thought that his own personal Microvac was many times more complicated than the ancient and primitive Multivac that had first tamed the Sun</span><span data-jmpress="fade after 1000ms prev">, and almost as complicated as Earth's Planetary AC (the largest) that had first solved the problem of hyperspatial travel and had made trips to the stars possible.</span></p>
   </section>
   <section>
     <p>"So many stars, so many planets," sighed Jerrodine, busy with her own thoughts. <span data-jmpress="fade-fast">"I suppose families will be going out to new planets forever</span><span data-jmpress="fade after 500ms prev">, the way we are now."</span></p>
@@ -404,14 +404,17 @@
       <li><a href="http://roots.cx/" target="_blank">roots</a></li>
       <li><a href="http://jmpressjs.github.io/jmpress.js/" target="_blank">jmpress.js</a></li>
       <li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a></li>
+      <li><a href="http://daneden.me/animate/animate.css" target="_blank">animate.css</a></li>
       <li>love</li>
       <li>patience.</li>
     </ul>
     <p>Text from <a href="http://filer.case.edu/dts8/thelastq.htm" target="_blank">http://filer.case.edu/dts8/thelastq.htm</a></p>
-    <p>By Theodor Văraru from <a href="http://readfwd.com/" target="_blank">Read Forward</a>.</p>
+    <p>By <a href="http://tvararu.ro/" target="_blank">Theodor Văraru </a>from <a href="http://readfwd.com/" target="_blank">Read Forward</a>.</p>
   </section>
 </div><i id="little-arrow" class="icon-play"></i>
   </body>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script data-main="js/main" src="js/require.js"></script>
+  <!-- script(src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")-->
+  <script src="components/jquery/jquery.js"></script>
+  <script data-main="js/main" src="js/require.js"></script><script>protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://'; address = protocol + window.location.host + window.location.pathname + '/ws'; socket = new WebSocket(address);
+socket.onmessage = function(msg) { msg.data == 'reload' && window.location.reload() }</script>
 </html>

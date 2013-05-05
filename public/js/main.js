@@ -1,7 +1,7 @@
 (function() {
   var js;
 
-  js = ["../components/jmpress/jmpress.js"];
+  js = ["components/jmpress/jmpress.js"];
 
   require(js, function() {
     return $(function() {
