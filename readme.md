@@ -1,10 +1,8 @@
-Your Project Name
-=================
-A brief summary of your project
+The Last Question
+===
 
-### Setup / Installation
-Some instructions on how to set up and/or install this project
+Back in early 2013, [The Last Question](http://filer.case.edu/dts8/thelastq.htm) inevitably resurfaced back to the top of Hacker News and I got to read it for the first time. I was so impressed by the short story that I went out and built this in roughly two to three days. It's a weird book/app hybrid which I feel does a better job of presenting the book than a plain HTML page.
 
-### Staging/Production
-This site is staged at http://example.com [u: admin p: example]    
-This site is live at http://example.com
+Not thoroughly tested on multiple devices, browsers or screen sizes, so YMMV. Try Chrome or Webkit. And enjoy the read.
+
+All rights to the book are reserved by the Asimov Foundation.
