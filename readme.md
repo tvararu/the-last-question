@@ -22,3 +22,7 @@ roots watch
 ```
 
 The `gh-pages` branch contains a compiled version of the project.
+
+### License
+
+[MIT](license.txt).
