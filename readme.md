@@ -1,3 +1,5 @@
+<img src="screenshot.png" alt="Screenshot" />
+
 The Last Question
 ===
 
