@@ -1,4 +1,4 @@
-<img src="screenshot.png" alt="Screenshot" />
+<a href="http://vararu.org/the-last-question/"><img src="screenshot.png" alt="Screenshot" /></a>
 
 The Last Question
 ===
